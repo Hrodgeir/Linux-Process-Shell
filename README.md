@@ -22,53 +22,60 @@ Below is a listing of each command that PMan.c will run.
 ----------------------------------------------------------
 
 COMMAND:	bg
+
 USAGE:		bg args
-FUNCTION:	Starts a new child background process based on
-			the list of arguments provided.
+
+FUNCTION:	Starts a new child background process based on the list of arguments provided.
+
 EXAMPLE:	bg ./inf * 1000
 
 ----------------------------------------------------------
 
 COMMAND:	bglist
+
 USAGE:		bglist
-FUNCTION:	Lists all currently running and stopped
-			background processes that were started using
-			the bg command in PMan.
+
+FUNCTION:	Lists all currently running and stopped background processes that were started usingm the bg command in PMan.
+
 EXAMPLE:	bglist
 
 ----------------------------------------------------------
 
 COMMAND:	bgkill
+
 USAGE:		bgkill pid
-FUNCTION:	Terminates the background process with the
-			specified pid. If the pid does not exist,
-			then it will not terminate the process.
+
+FUNCTION:	Terminates the background process with the specified pid. If the pid does not exist, then it will not terminate the process.
+
 EXAMPLE:	bgkill 1234
 
 ----------------------------------------------------------
 
 COMMAND:	bgstop
+
 USAGE:		bgstop pid
-FUNCTION:	Stops the background process with the
-			specified pid. If the pid does not exist,
-			then it will not stop the process.
+
+FUNCTION:	Stops the background process with the specified pid. If the pid does not exist, then it will not stop the process.
+
 EXAMPLE:	bgstop 1234
 
 ----------------------------------------------------------
 
 COMMAND:	bgstart
+
 USAGE:		bgstart pid
-FUNCTION:	Restarts a stopped background process with the
-			specified pid. If the pid does not exist,
-			then it will not restart a process.
+
+FUNCTION:	Restarts a stopped background process with the specified pid. If the pid does not exist, then it will not restart a process.
+
 EXAMPLE:	bgstart 1234
 
 ----------------------------------------------------------
 
 COMMAND:	pstat
+
 USAGE:		pstat pid
-FUNCTION:	Lists the following information related to the
-			specified pid. An example is shown below:
+
+FUNCTION:	Lists the following information related to the specified pid. An example is shown below:
 
 			comm:                       Example Output
 			state:                      Example Output					
