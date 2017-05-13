@@ -1,9 +1,6 @@
 /*
 
-CSC 360 Assignment 1
---------------------
-Matthew Hodgson
-V00803081
+Process management shell for Linux.
 
 */
 
